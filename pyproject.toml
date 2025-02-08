@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-roadmap"
+version = "0.1.0"
+description = "A structured, project-based roadmap for learning Machine Learning & AI."
+authors = [{name = "Juan Lara", email = "larajuan@outlook.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+
+[tool.setuptools]
+py-modules = []
+
+[project.optional-dependencies]
+eda = ["pandas", "matplotlib", "seaborn", "plotly", "scipy", "statsmodels"]
+iris-classification = ["scikit-learn", "numpy", "matplotlib", "pandas"]
+titanic = ["scikit-learn", "numpy", "pandas", "matplotlib", "missingno"]
+linear-regression = ["numpy", "scipy", "statsmodels", "matplotlib"]
+housing = ["scikit-learn", "pandas", "numpy", "matplotlib", "shap"]
+sentiment-analysis = ["transformers", "torch", "spacy", "nltk", "sentence-transformers"]
+churn-prediction = ["scikit-learn", "pandas", "numpy", "xgboost", "shap"]
+stock-prediction = ["tensorflow", "pandas", "numpy", "scipy", "statsmodels"]
+neural-network = ["numpy", "torch", "tensorflow"]
+image-classification = ["tensorflow", "keras", "torchvision", "albumentations", "opencv-python"]
+face-recognition = ["opencv-python", "dlib", "face-recognition", "numpy"]
+recommendation = ["scikit-learn", "pandas", "implicit", "lightfm", "surprise"]
+automl = ["auto-sklearn", "tpot", "dask"]
+language-model = ["transformers", "torch", "sentencepiece", "spacy"]
+ab-testing = ["scipy", "statsmodels", "numpy", "matplotlib"]
+image-generation = ["tensorflow", "keras", "torch", "diffusers", "opencv-python"]
+multilanguage-nlp = ["transformers", "sentencepiece", "spacy", "fasttext"]
+reinforcement-learning = ["gym", "stable-baselines3", "torch", "numpy"]
+fraud-detection = ["scikit-learn", "pandas", "xgboost", "imbalanced-learn", "shap"]
+mlops = ["mlflow", "dvc", "prefect", "pydantic"]
+distributed-ml = ["pyspark", "dask", "ray"]

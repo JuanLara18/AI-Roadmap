@@ -1,0 +1,60 @@
+# 💾 Python Compiled Files  
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 📂 Virtual Environments  
+venv/
+env/
+.venv/
+
+# 📑 Jupyter Notebook Checkpoints  
+.ipynb_checkpoints/
+
+# 🚀 Machine Learning Models & Checkpoints  
+*.h5
+*.pkl
+*.pt
+*.onnx
+*.joblib
+
+# 🗂 Dataset Files (Handled Separately in `datasets/`)  
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+*.zip
+*.tar.gz
+
+# 🏗 Logs & Temporary Files  
+logs/
+*.log
+*.out
+*.pid
+*.tmp
+
+# 🎨 Visualization & Output Files  
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# 🔍 Hidden System Files  
+.DS_Store
+Thumbs.db
+
+# 🛠 IDE & Editor Files  
+.vscode/
+.idea/
+*.sublime-workspace
+
+# ⚙️ Configurations & Dependency Files  
+pip-log.txt
+pip-delete-this-directory.txt
+.env
+.env.local
+.env.production
+.env.development
