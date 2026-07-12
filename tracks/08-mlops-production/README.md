@@ -107,6 +107,19 @@ MLOps specific to LLM-powered applications.
 | Observability | LangSmith, Langfuse, Braintrust, Phoenix for tracing LLM calls |
 | Agent Infrastructure | Durable execution, crash recovery, approval gates (Kitaru, Temporal) |
 
+### AI System Architecture & Design Patterns
+
+Building robust, enterprise-ready AI systems requires moving beyond simple API endpoints to resilient system architectures.
+
+| Pattern / Concept | Description | Key Tools / Standards |
+|---|---|---|
+| **LLM Gateway / Proxy** | Centralized router that sits between applications and LLMs. Handles fallback models, load balancing, rate limiting, and token budgets. | LiteLLM, Portkey, Kong, Custom proxies |
+| **Enterprise API Gateways** | Exposing model APIs securely to clients, managing authentication, logging, payload size checks, and enterprise security. | Apigee, Kong, AWS API Gateway |
+| **Asynchronous & Event-Driven Loops** | Offloading long-running agent loops or prompt tasks using message brokers and background queues to avoid blocking HTTP timeouts. | Celery, RabbitMQ, Redis, Kafka, Temporal |
+| **Semantic Caching** | Caching LLM responses based on semantic similarity of prompts rather than exact string matching, dramatically cutting costs and latency. | Redis, GPTCache, Qdrant, Milvus |
+| **LLM Firewalls & Guardrails** | Intercepting incoming prompt injections, protecting against PII leaks, and validating outgoing schema compliance in real time. | Llama Guard, NeMo Guardrails, Guardrails AI |
+| **Agent Gateways (MCP)** | Standardizing tool integration so autonomous agents can securely discover and call enterprise data and APIs. | Model Context Protocol (MCP) |
+
 ---
 
 ## Recommended Resources
@@ -116,11 +129,13 @@ MLOps specific to LLM-powered applications.
 - [Full Stack Deep Learning](https://fullstackdeeplearning.com/) (free)
 - [Google MLOps on Vertex AI](https://cloud.google.com/vertex-ai/docs/start/introduction-mlops) (free)
 - [DeepLearning.AI — Machine Learning Engineering for Production (MLOps)](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
+- [ByteByteGo — System Design Fundamentals](https://bytebytego.com/) (great for understanding API gateways, rate limiting, and queues)
 
 ### Books
 - *Designing Machine Learning Systems* — Chip Huyen
 - *Machine Learning Engineering* — Andriy Burkov ([free online](http://www.mlebook.com/))
 - *Reliable Machine Learning* — Cathy Chen et al.
+- *Enterprise Integration Patterns* — Gregor Hohpe (essential for asynchronous and queue architectures)
 - *Building LLM Apps* — Valentina Alto
 
 ### Key Papers
@@ -136,7 +151,8 @@ MLOps specific to LLM-powered applications.
 | **Model API with FastAPI + Docker** | Beginner | Wrap a trained model in an API and containerize it |
 | **End-to-End ML Pipeline** | Intermediate | Data ingestion, training, evaluation, deployment with MLflow |
 | **Automated Retraining System** | Advanced | Detect data drift and trigger retraining automatically |
-| **LLM Gateway** | Advanced | Build a proxy that routes between LLM providers, caches, and monitors |
+| **Enterprise LLM Gateway** | Advanced | Build a production-grade LLM proxy with routing, fallback failover, semantic caching (Redis), rate-limiting, and cost tracking |
+| **Asynchronous Agent Queue** | Advanced | Build a background task queue (Celery + RabbitMQ) to process long-running agent tasks and send progress updates via WebSockets |
 | **A/B Testing Framework** | Intermediate | Compare model versions in a simulated production setting |
 | **ML Monitoring Dashboard** | Intermediate | Grafana dashboard tracking model performance metrics |
 

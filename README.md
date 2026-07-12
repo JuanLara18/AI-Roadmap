@@ -183,14 +183,15 @@ Each track contains a detailed guide with concepts to learn, curated resources, 
 | Topic | What You'll Learn |
 |---|---|
 | Experiment Tracking | MLflow, Weights & Biases, Trackio |
-| Model Serving | TorchServe, Triton, BentoML, FastAPI |
+| Model Serving | TorchServe, Triton, BentoML, FastAPI, vLLM/SGLang |
+| AI System Architecture | LLM Gateways (LiteLLM), Apigee/Kong, semantic caching, async queues (Celery/RabbitMQ) |
 | Containerization | Docker, Kubernetes for ML workloads |
 | CI/CD for ML | Testing pipelines, automated retraining, GitHub Actions |
 | Monitoring | Data drift detection, model performance monitoring |
 | Feature Stores | Feast, Tecton, online vs offline features |
-| LLMOps | LLM-specific deployment, caching, cost optimization |
+| LLMOps | LLM-specific deployment, caching, cost optimization, guardrails |
 
-**Project Ideas:** End-to-end ML pipeline with MLflow, model API with FastAPI + Docker, automated retraining system
+**Project Ideas:** End-to-end ML pipeline with MLflow, LLM Gateway with routing & fallbacks, model API with FastAPI + Docker, automated retraining system
 
 ---
 

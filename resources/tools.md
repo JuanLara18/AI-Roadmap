@@ -97,6 +97,17 @@
 | **Docker / Kubernetes** | Containerization and orchestration | [docker.com](https://www.docker.com/) |
 | **FastAPI** | Building custom ML APIs | [fastapi.tiangolo.com](https://fastapi.tiangolo.com/) |
 
+## AI System Architecture & Gateways
+
+| Tool | Purpose | Link |
+|---|---|---|
+| **LiteLLM** | Call 100+ LLMs in OpenAI format, load balancing, and fallbacks | [litellm.ai](https://www.litellm.ai/) |
+| **Portkey** | AI gateway for routing, caching, and observability | [portkey.ai](https://portkey.ai/) |
+| **Apigee** | Google's enterprise API gateway for security, rate-limiting, and management | [cloud.google.com/apigee](https://cloud.google.com/apigee) |
+| **Kong** | High-performance API gateway and AI proxy gateway | [konghq.com](https://konghq.com/) |
+| **GPTCache** | Semantic caching library to reduce LLM latency and cost | [github.com/zilliztech/GPTCache](https://github.com/zilliztech/GPTCache) |
+| **Celery / RabbitMQ** | Asynchronous task queue and message broker for background processing | [docs.celeryq.dev](https://docs.celeryq.dev/) |
+
 ## Vector Databases
 
 | Database | Description | Link |

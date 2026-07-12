@@ -11,6 +11,7 @@
 | Course | Provider | Cost | Topics |
 |---|---|---|---|
 | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) | Andrew Ng / Stanford / Coursera | Free to audit | ML fundamentals, regression, classification, neural networks |
+| [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | MIT | Free | Essential shell, Git version control, editors, and CLI foundations for software engineering |
 | [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) | Google | Free | ML concepts, TensorFlow, practical exercises |
 | [fast.ai — Practical Deep Learning](https://course.fast.ai/) | fast.ai | Free | Top-down approach, practical from day one |
 | [Elements of AI](https://www.elementsofai.com/) | University of Helsinki | Free | AI concepts for non-technical audiences |
@@ -38,6 +39,7 @@
 | [Stanford CS236 — Deep Generative Models](https://deepgenerativemodels.github.io/) | Stanford | Free | VAEs, GANs, diffusion, flow models |
 | [Full Stack LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/) | FSDL | Free | Building LLM applications end-to-end |
 | [Full Stack Deep Learning](https://fullstackdeeplearning.com/) | FSDL | Free | Production ML, MLOps, team practices |
+| [System Design Fundamentals](https://bytebytego.com/) | ByteByteGo | Paid / Free resources | Scalability, API gateways, load balancers, rate limiting, queues |
 | [DeepMind x UCL — RL Course](https://www.youtube.com/playlist?list=PLqYmG7hTraZDVH599EItlEWsUOsJbAodm) | DeepMind | Free | Reinforcement learning theory and practice |
 | [Hugging Face RL Course](https://huggingface.co/learn/deep-rl-course) | Hugging Face | Free | Deep RL with Stable Baselines3 |
 

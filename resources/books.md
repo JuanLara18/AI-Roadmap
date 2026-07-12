@@ -22,7 +22,9 @@
 |---|---|---|---|
 | *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (3rd ed.) | Aurelien Geron | No | End-to-end ML and DL with code |
 | *Mathematics for Machine Learning* | Deisenroth, Faisal, Ong | [Yes](https://mml-book.github.io/) | Linear algebra, calculus, probability for ML |
+| *Clean Code in Python* | Mariano Anaya | No | Writing clean, maintainable, and idiomatic Python |
 | *Designing Machine Learning Systems* | Chip Huyen | No | Production ML, system design, MLOps |
+| *Enterprise Integration Patterns* | Gregor Hohpe, Bobby Woolf | No | Messaging patterns, asynchronous queues, system integration |
 | *Natural Language Processing with Transformers* | Tunstall, von Werra, Wolf | No | Hugging Face ecosystem, NLP |
 | *Machine Learning Engineering* | Andriy Burkov | [Yes](http://www.mlebook.com/) | Practical ML engineering |
 
