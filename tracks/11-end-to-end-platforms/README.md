@@ -69,7 +69,7 @@ Data in BigQuery -> Vertex AI Training (custom or AutoML) -> Model Registry -> V
 | Service | Purpose |
 |---|---|
 | **Azure Machine Learning** | Full ML lifecycle: designer, notebooks, pipelines, endpoints |
-| **Azure OpenAI Service** | Managed GPT-5, DALL-E, embeddings with enterprise security |
+| **Azure OpenAI Service** | Managed GPT-4o, o1, DALL-E 3, and embedding models with enterprise security |
 | **Azure AI Studio** | Build and deploy generative AI apps |
 | **Azure Databricks** | Collaborative data engineering + ML |
 | **Cosmos DB** | Vector search for RAG applications |
@@ -105,12 +105,12 @@ Lighter-weight platforms that abstract infrastructure away — ideal for shippin
 | Platform | What It Does | Best For |
 |---|---|---|
 | **Hugging Face** | Model hub, Spaces (demo apps), Inference Endpoints, AutoTrain | Open-source models, community, quick deployment |
-| **Replicate** | Run any model via API (pay per prediction) | Trying models without infrastructure |
-| **Modal** | Serverless GPU functions in Python | Custom inference and training jobs, batch processing |
-| **Together AI** | Fast inference for open-source LLMs | Cost-effective LLM APIs |
-| **Fireworks AI** | Optimized LLM inference | Low-latency LLM serving |
-| **Groq** | Ultra-fast LLM inference on custom hardware (LPU) | Latency-critical applications |
-| **Anyscale** | Managed Ray for scaling ML workloads | Distributed training and serving |
+| **OpenRouter / DeepSeek** | Unified API gateway for hundreds of models, and direct high-performance DeepSeek API access | Accessing many model providers through one key, and low-cost reasoning models |
+| **Replicate** | Run any open weights model via serverless API (pay per prediction) | Testing models without infrastructure setup |
+| **Modal** | Serverless GPU containers and functions in pure Python | Custom batch inference, model fine-tuning, and background worker jobs |
+| **Together AI / Fireworks** | Optimized, low-latency inference for open-source LLMs | Cost-effective, high-throughput LLM APIs |
+| **Groq** | Ultra-fast LLM inference on custom hardware (LPU) | Real-time agent systems and latency-critical chat applications |
+| **Anyscale / RunPod** | Managed Ray platforms and GPU cloud instances | Scaling distributed training and custom serving workloads |
 
 ### Demo & Prototyping Tools
 

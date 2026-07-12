@@ -27,12 +27,12 @@ The zoo of models built on the transformer architecture.
 | Model Family | Type | Best For |
 |---|---|---|
 | **BERT** (and RoBERTa, DeBERTa) | Encoder | Classification, NER, semantic similarity |
-| **GPT** (GPT-5, GPT-5.4) | Decoder | Text generation, reasoning, instruction following |
+| **GPT** (GPT-4o, o1, o3-mini) | Decoder | General text, complex reasoning, instruction following |
 | **T5 / FLAN-T5** | Encoder-Decoder | Summarization, translation, general NLU |
-| **LLaMA 4 / Mistral / Qwen 3** | Decoder | Open-source text generation, multimodal |
-| **Claude** (Opus 4.6, Sonnet 4.6) | Decoder | Long context, agentic coding, reasoning |
-| **Gemini** (3.1 Pro) | Decoder | Multimodal, long context, reasoning |
-| **DeepSeek** (V3, R2) | Decoder (MoE) | Cost-efficient reasoning, open-source |
+| **Llama 3.1 / 3.3 & Qwen 2.5** | Decoder | Open-source text generation, local deployment, tool use |
+| **Claude** (3.5 Sonnet, 3 Opus) | Decoder | Long context, agentic coding, reasoning, computer use |
+| **Gemini** (1.5 Pro, 2.0 Flash) | Decoder | Native multimodal, long context (up to 2M tokens), reasoning |
+| **DeepSeek** (V3, R1) | Decoder (MoE) | Cost-efficient general reasoning, deep math/logic reasoning |
 
 ### LLM Fine-Tuning
 
@@ -116,9 +116,10 @@ Getting models into production.
 - [Hugging Face Transformers](https://huggingface.co/docs/transformers) — model hub and library
 - [LangChain](https://www.langchain.com/) — LLM application framework
 - [LlamaIndex](https://www.llamaindex.ai/) — data framework for LLM apps
-- [Unsloth](https://github.com/unslothai/unsloth) — fast fine-tuning
-- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) — fine-tuning toolkit
-- [FeynRL](https://github.com/boson-ai/FeynRL) — modular post-training (SFT, DPO, PPO, GRPO)
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) — unified and user-friendly LLM fine-tuning framework
+- [Unsloth](https://github.com/unslothai/unsloth) — fast local LLM fine-tuning
+- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) — configuration-driven fine-tuning toolkit
+- [FeynRL](https://github.com/boson-ai/FeynRL) — modular post-training and RL alignment framework
 
 ---
 

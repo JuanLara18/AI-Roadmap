@@ -33,9 +33,9 @@ These papers defined the field. Read them to understand where everything comes f
 | 2022 | [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) | Step-by-step reasoning in LLMs |
 | 2023 | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) | Open-source LLMs for the community |
 | 2023 | [DPO: Direct Preference Optimization](https://arxiv.org/abs/2305.18290) | Simpler alternative to RLHF |
+| 2024 | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) | Open foundation and fine-tuned multilingual models |
+| 2024 | [Qwen2 Technical Report](https://arxiv.org/abs/2407.10671) | Open-source large language model family |
 | 2024 | [DeepSeek-V3](https://arxiv.org/abs/2412.19437) | Mixture-of-experts at scale |
-| 2025 | [LLaMA 4](https://arxiv.org/abs/2504.00227) | Open-source multimodal MoE with 10M context |
-| 2025 | [Qwen 3](https://arxiv.org/abs/2505.09388) | Hybrid thinking/non-thinking open-source family |
 | 2025 | [DeepSeek-R1](https://arxiv.org/abs/2501.12948) | Reinforcement learning for reasoning |
 
 ## Computer Vision

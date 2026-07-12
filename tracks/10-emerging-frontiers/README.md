@@ -14,12 +14,12 @@ Models that understand and generate across multiple modalities — text, images,
 
 | Model / Approach | Modalities | Description |
 |---|---|---|
-| **GPT-5.4** | Text, image, audio, computer use | Frontier multimodal reasoning with tool use |
-| **Claude Opus 4.6** | Text, image, code | Long-context reasoning, agentic coding |
-| **Gemini 3.1 Pro** | Text, image, audio, video | Google's multimodal family with long context |
-| **LLaMA 4 (Scout, Maverick)** | Text, image | Open-source multimodal with 10M context |
-| **LLaVA / LLaVA-Next** | Text, image | Open-source vision-language models |
-| **CLIP** | Text, image | Contrastive vision-language pretraining |
+| **GPT-4o / o1** | Text, image, audio, computer use | Frontier multimodal reasoning and vision-based tool use |
+| **Claude 3.5 Sonnet** | Text, image, code, computer use | State-of-the-art visual coding, reasoning, and agentic desktop control |
+| **Gemini 1.5 Pro / 2.0 Flash** | Text, image, audio, video | Google's native multimodal models supporting up to 2M tokens context |
+| **Llama 3.2 Vision** | Text, image | Open-source multimodal family with native image understanding |
+| **LLaVA / LLaVA-Next** | Text, image | Highly popular open-source vision-language models |
+| **CLIP** | Text, image | Contrastive vision-language pretraining bridging vision and text |
 | **ImageBind (Meta)** | 6 modalities | Binding images, text, audio, depth, thermal, IMU |
 | Any-to-Any Models | All | Models that take any input and produce any output |
 
@@ -107,7 +107,7 @@ Running AI on constrained devices — phones, IoT, embedded systems.
 | Continual / Lifelong Learning | Models that learn incrementally without forgetting |
 | Causal Inference | Understanding cause and effect, not just correlation |
 | Synthetic Data Generation | Creating training data artificially |
-| Computer Use Agents | Models controlling desktop/browser interfaces (GPT-5.4, Claude Opus 4.6) |
+| Computer Use Agents | Models controlling desktop/browser interfaces autonomously (e.g. Claude 3.5 Sonnet, Browser Use) |
 | AI Governance & Policy | Shaping the future of AI regulation |
 
 ---

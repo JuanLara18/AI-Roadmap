@@ -24,16 +24,15 @@ Keeping track of what you tried, what worked, and why.
 
 Getting predictions to users in real time.
 
-| Tool | Best For |
+| Tool / Framework | Best For |
 |---|---|
-| **FastAPI** | Custom REST APIs for ML models |
-| **TorchServe** | PyTorch-native serving |
-| **Triton Inference Server** | High-performance, multi-framework serving (NVIDIA) |
-| **BentoML** | Packaging and deploying ML services |
-| **TensorFlow Serving** | TensorFlow model serving |
-| **vLLM** | High-throughput LLM serving |
-| **Ollama** | Local LLM deployment |
-| **Hugging Face Inference Endpoints** | Managed model hosting |
+| **vLLM / SGLang** | High-throughput, low-latency LLM serving with structured generation |
+| **Triton Inference Server** | High-performance, multi-framework GPU/CPU serving (NVIDIA) |
+| **FastAPI** | Building custom REST APIs for classical ML and lightweight models |
+| **BentoML** | Packaging, containerizing, and deploying general ML services |
+| **Ollama** | Quick local LLM and embedding model deployment |
+| **Hugging Face Inference Endpoints** | Fully managed serverless model hosting |
+| **TorchServe / TF Serving** | PyTorch-native and TensorFlow-native serving (increasingly specialized/legacy) |
 
 ### Containerization & Orchestration
 

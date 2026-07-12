@@ -68,9 +68,8 @@ Automating the model selection and tuning process.
 
 | Tool | Description |
 |---|---|
-| **Auto-sklearn** | Automated scikit-learn pipeline optimization |
-| **TPOT** | Genetic algorithm-based pipeline search |
-| **Optuna** | Hyperparameter optimization framework |
+| **AutoGluon** | AWS's state-of-the-art AutoML platform for tabular, image, and text data |
+| **Optuna** | The industry-standard hyperparameter optimization framework |
 | **H2O AutoML** | Enterprise-grade AutoML platform |
 | **FLAML** | Fast, lightweight AutoML by Microsoft |
 
@@ -92,6 +91,7 @@ Automating the model selection and tuning process.
 
 ### Key Libraries
 - [Scikit-learn](https://scikit-learn.org/) — the Swiss army knife of classical ML
+- [AutoGluon](https://autogluon.dev/) — AWS's state-of-the-art AutoML platform
 - [XGBoost](https://xgboost.readthedocs.io/) / [LightGBM](https://lightgbm.readthedocs.io/) / [CatBoost](https://catboost.ai/)
 - [Optuna](https://optuna.org/) — hyperparameter optimization
 - [imbalanced-learn](https://imbalanced-learn.org/) — handling class imbalance

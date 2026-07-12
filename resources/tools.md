@@ -22,6 +22,7 @@
 | Framework | Best For | Link |
 |---|---|---|
 | **Scikit-learn** | Classical ML, tabular data | [scikit-learn.org](https://scikit-learn.org/) |
+| **AutoGluon** | AWS's state-of-the-art AutoML platform | [autogluon.dev](https://autogluon.dev/) |
 | **XGBoost** | Gradient boosting, competitions | [xgboost.readthedocs.io](https://xgboost.readthedocs.io/) |
 | **LightGBM** | Fast gradient boosting | [lightgbm.readthedocs.io](https://lightgbm.readthedocs.io/) |
 | **CatBoost** | Categorical feature handling | [catboost.ai](https://catboost.ai/) |
@@ -30,10 +31,10 @@
 
 | Framework | Best For | Link |
 |---|---|---|
-| **PyTorch** | Research, flexibility | [pytorch.org](https://pytorch.org/) |
-| **TensorFlow / Keras** | Production, wide ecosystem | [tensorflow.org](https://www.tensorflow.org/) |
-| **JAX** | High-performance research | [github.com/google/jax](https://github.com/google/jax) |
-| **Lightning** | Structured PyTorch training | [lightning.ai](https://lightning.ai/) |
+| **PyTorch** | Research, flexibility, production (industry standard) | [pytorch.org](https://pytorch.org/) |
+| **JAX** | High-performance numerical computing for scale | [github.com/google/jax](https://github.com/google/jax) |
+| **Keras 3** | Multi-backend API running on PyTorch, JAX, or TensorFlow | [keras.io](https://keras.io/) |
+| **Lightning** | Structured PyTorch training at scale | [lightning.ai](https://lightning.ai/) |
 | **Hugging Face Transformers** | Pretrained models, NLP, CV, audio | [huggingface.co](https://huggingface.co/docs/transformers) |
 
 ## LLM & NLP Tools
@@ -43,12 +44,12 @@
 | **Hugging Face Hub** | Model hosting, datasets, Spaces | [huggingface.co](https://huggingface.co/) |
 | **LangChain** | LLM application framework | [langchain.com](https://www.langchain.com/) |
 | **LlamaIndex** | Data framework for LLM apps | [llamaindex.ai](https://www.llamaindex.ai/) |
-| **vLLM** | High-throughput LLM serving | [github.com/vllm-project/vllm](https://github.com/vllm-project/vllm) |
-| **Ollama** | Run LLMs locally | [ollama.com](https://ollama.com/) |
-| **Unsloth** | Fast LLM fine-tuning | [github.com/unslothai/unsloth](https://github.com/unslothai/unsloth) |
-| **TRL** | Transformer reinforcement learning | [huggingface.co/docs/trl](https://huggingface.co/docs/trl) |
-| **FeynRL** | Modular post-training (SFT, DPO, GRPO) | [github.com/boson-ai/FeynRL](https://github.com/boson-ai/FeynRL) |
-| **spaCy** | Production NLP | [spacy.io](https://spacy.io/) |
+| **vLLM / SGLang** | High-throughput, structured local & production LLM serving | [github.com/vllm-project/vllm](https://github.com/vllm-project/vllm) |
+| **LLaMA-Factory** | Unified and user-friendly LLM fine-tuning platform | [github.com/hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) |
+| **Ollama** | Run LLMs locally with one command | [ollama.com](https://ollama.com/) |
+| **Unsloth** | Fast local LLM fine-tuning | [github.com/unslothai/unsloth](https://github.com/unslothai/unsloth) |
+| **TRL / FeynRL** | LLM reinforcement learning and post-training alignment | [huggingface.co/docs/trl](https://huggingface.co/docs/trl) |
+| **spaCy** | Production NLP pipelines | [spacy.io](https://spacy.io/) |
 | **NLTK** | Teaching NLP | [nltk.org](https://www.nltk.org/) |
 
 ## Computer Vision Tools
@@ -75,12 +76,13 @@
 
 | Framework | Description | Link |
 |---|---|---|
-| **LangGraph** | Graph-based agent orchestration | [langchain-ai.github.io/langgraph](https://langchain-ai.github.io/langgraph/) |
-| **CrewAI** | Multi-agent collaboration | [crewai.com](https://www.crewai.com/) |
-| **AutoGen** | Multi-agent conversations | [github.com/microsoft/autogen](https://github.com/microsoft/autogen) |
-| **Smolagents** | Lightweight agents | [huggingface.co/docs/smolagents](https://huggingface.co/docs/smolagents) |
+| **LangGraph** | Graph-based agent orchestration and state machines | [langchain-ai.github.io/langgraph](https://langchain-ai.github.io/langgraph/) |
+| **Pydantic AI** | Type-safe agent framework by Pydantic | [pydantic-ai.github.io/pydantic-ai](https://pydantic-ai.github.io/pydantic-ai/) |
+| **LlamaIndex Workflows** | Event-driven agent orchestration framework | [docs.llamaindex.ai](https://docs.llamaindex.ai/en/stable/module_guides/workflow/) |
+| **CrewAI** | Role-based multi-agent collaboration | [crewai.com](https://www.crewai.com/) |
+| **Smolagents** | Lightweight, code-first Python agents | [huggingface.co/docs/smolagents](https://huggingface.co/docs/smolagents) |
 | **Browser Use** | Web automation for agents | [github.com/browser-use/browser-use](https://github.com/browser-use/browser-use) |
-| **Kitaru** | Durable agent execution with crash recovery | [github.com/zenml-io/kitaru](https://github.com/zenml-io/kitaru) |
+| **Temporal / Kitaru** | Durable agent execution, crash recovery, human approvals | [temporal.io](https://temporal.io/) |
 
 ## MLOps & Production
 
@@ -90,10 +92,10 @@
 | **Weights & Biases** | Experiment tracking, dashboards | [wandb.ai](https://wandb.ai/) |
 | **DVC** | Data and model versioning | [dvc.org](https://dvc.org/) |
 | **BentoML** | Model serving and deployment | [bentoml.com](https://www.bentoml.com/) |
-| **Prefect** | Workflow orchestration | [prefect.io](https://www.prefect.io/) |
+| **Prefect / Temporal** | Workflow orchestration and durable execution | [prefect.io](https://www.prefect.io/) |
 | **Evidently** | Data and model monitoring | [evidentlyai.com](https://www.evidentlyai.com/) |
-| **Docker** | Containerization | [docker.com](https://www.docker.com/) |
-| **FastAPI** | Building ML APIs | [fastapi.tiangolo.com](https://fastapi.tiangolo.com/) |
+| **Docker / Kubernetes** | Containerization and orchestration | [docker.com](https://www.docker.com/) |
+| **FastAPI** | Building custom ML APIs | [fastapi.tiangolo.com](https://fastapi.tiangolo.com/) |
 
 ## Vector Databases
 
@@ -128,12 +130,12 @@
 | Platform | Purpose | Link |
 |---|---|---|
 | **Hugging Face** | Model hub, Spaces, Inference Endpoints, AutoTrain | [huggingface.co](https://huggingface.co/) |
-| **Replicate** | Run models via API (pay per prediction) | [replicate.com](https://replicate.com/) |
-| **Modal** | Serverless GPU functions in Python | [modal.com](https://modal.com/) |
-| **Together AI** | Fast inference for open-source LLMs | [together.ai](https://www.together.ai/) |
-| **Fireworks AI** | Optimized low-latency LLM inference | [fireworks.ai](https://fireworks.ai/) |
-| **Groq** | Ultra-fast LLM inference (custom LPU hardware) | [groq.com](https://groq.com/) |
-| **Anyscale** | Managed Ray for scaling ML workloads | [anyscale.com](https://www.anyscale.com/) |
+| **OpenRouter / DeepSeek** | Unified API model router, and high-performance DeepSeek API | [openrouter.ai](https://openrouter.ai/) |
+| **Replicate** | Run open weights models via serverless API | [replicate.com](https://replicate.com/) |
+| **Modal** | Serverless GPU containers and functions in pure Python | [modal.com](https://modal.com/) |
+| **Together AI / Fireworks** | Optimized, low-latency LLM serving APIs | [together.ai](https://www.together.ai/) |
+| **Groq** | Ultra-fast LLM inference on LPU hardware | [groq.com](https://groq.com/) |
+| **Anyscale** | Managed Ray platform for distributed scaling | [anyscale.com](https://www.anyscale.com/) |
 | **Gradio** | Build ML web UIs in Python | [gradio.app](https://www.gradio.app/) |
 | **Streamlit** | Python framework for data apps | [streamlit.io](https://streamlit.io/) |
 
@@ -154,13 +156,15 @@
 | **RunPod** | Affordable GPU cloud | [runpod.io](https://www.runpod.io/) |
 | **Vast.ai** | GPU marketplace (cheapest option) | [vast.ai](https://vast.ai/) |
 
-## Development Environment
+## Development Environment & SWE Tools
 
 | Tool | Purpose | Link |
 |---|---|---|
+| **VS Code / Cursor** | AI-native code editors | [cursor.com](https://www.cursor.com/) |
 | **Jupyter Lab** | Interactive notebooks | [jupyter.org](https://jupyter.org/) |
-| **VS Code** | Code editor with AI extensions | [code.visualstudio.com](https://code.visualstudio.com/) |
-| **Cursor** | AI-native code editor | [cursor.com](https://www.cursor.com/) |
-| **Google Colab** | Free GPU notebooks | [colab.research.google.com](https://colab.research.google.com/) |
-| **uv** | Fast Python package manager | [github.com/astral-sh/uv](https://github.com/astral-sh/uv) |
-| **conda** | Environment management | [conda.io](https://conda.io/) |
+| **Git & GitHub** | Version control and collaborative coding | [git-scm.com](https://git-scm.com/) |
+| **pytest** | Python testing framework | [pytest.org](https://docs.pytest.org/) |
+| **uv** | Extremely fast Python package and environment manager | [github.com/astral-sh/uv](https://github.com/astral-sh/uv) |
+| **Ruff** | Blazing fast Python linter and formatter | [github.com/astral-sh/ruff](https://github.com/astral-sh/ruff) |
+| **conda** | Traditional environment management | [conda.io](https://conda.io/) |
+| **Google Colab** | Free cloud GPU notebooks | [colab.research.google.com](https://colab.research.google.com/) |

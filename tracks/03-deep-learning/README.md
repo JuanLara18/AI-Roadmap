@@ -32,7 +32,6 @@ The architecture that revolutionized computer vision.
 | ResNet | Skip connections, training very deep networks |
 | EfficientNet | Compound scaling for efficiency |
 | ConvNeXt | Modernizing CNNs with transformer insights |
-| Mamba / State Space Models | Linear-time alternatives to attention for long sequences |
 
 ### Recurrent Networks & Sequences
 
@@ -45,6 +44,7 @@ Processing sequential data — text, time series, audio.
 | GRUs | Simplified LSTMs, faster training |
 | Seq2Seq + Attention | Machine translation, summarization |
 | Temporal Convolutional Networks | Alternative to RNNs for sequences |
+| **Mamba / State Space Models** | Linear-time sequence modeling alternative to attention |
 
 ### The Transformer Architecture
 
@@ -71,7 +71,7 @@ Techniques for training large models efficiently.
 | Gradient Accumulation | Effective larger batch sizes |
 | Distributed Data Parallel (DDP) | Multi-GPU training |
 | FSDP / DeepSpeed ZeRO | Memory-efficient distributed training |
-| Mixture of Experts (MoE) | Sparse activation for efficient scaling (used in GPT-5, LLaMA 4, DeepSeek) |
+| Mixture of Experts (MoE) | Sparse activation for efficient scaling (used in Mixtral, Qwen 2.5, DeepSeek-V3) |
 | Learning Rate Scheduling (Cosine, Warmup) | Better convergence |
 | Gradient Checkpointing | Trading compute for memory |
 
@@ -98,10 +98,11 @@ Techniques for training large models efficiently.
 - [Batch Normalization](https://arxiv.org/abs/1502.03167) — Ioffe & Szegedy, 2015
 
 ### Frameworks
-- [PyTorch](https://pytorch.org/) — the most popular research framework
-- [TensorFlow / Keras](https://www.tensorflow.org/) — production-friendly, wide ecosystem
-- [JAX](https://github.com/google/jax) — high-performance numerical computing
-- [Lightning](https://lightning.ai/) — structured PyTorch training
+- [PyTorch](https://pytorch.org/) — the absolute industry and research standard framework
+- [JAX](https://github.com/google/jax) — high-performance numerical computing for large-scale training and research
+- [Keras 3](https://keras.io/) — multi-backend API (supports PyTorch, JAX, and TensorFlow)
+- [Lightning](https://lightning.ai/) — structured PyTorch training for scaling up easily
+- *Note on TensorFlow:* Pure [TensorFlow](https://www.tensorflow.org/) is increasingly considered legacy for new projects, though still active in maintenance.
 
 ---
 

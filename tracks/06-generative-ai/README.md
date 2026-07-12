@@ -55,12 +55,13 @@ The newest frontier — still rapidly evolving.
 
 | Model / Tool | Description |
 |---|---|
-| Sora 2 Pro (OpenAI) | Hyper-realistic video from text prompts |
-| Veo 3.1 (Google) | Cinematic video with native audio sync |
-| Kling 3.0 | Native 4K@60fps, multilingual lip-sync, motion control |
-| Runway Gen-3 Alpha | Commercial video generation and editing |
-| AnimateDiff | Adding motion to image generation |
-| Temporal consistency | The core challenge — keeping videos coherent across frames |
+| **Sora (OpenAI)** | Hyper-realistic video from text prompts |
+| **Veo (Google)** | Cinematic video with rich details and native audio sync |
+| **Kling (Kuaishou)** | High-fidelity video generation, multilingual lip-sync, motion control |
+| **Runway Gen-3 Alpha** | Production-grade video generation and editing |
+| **Luma Dream Machine** | Fast, high-quality, physics-consistent video generation |
+| **AnimateDiff** | Open-source framework for adding motion to image generation |
+| **Temporal consistency** | The core challenge — keeping videos coherent across frames |
 
 ### Code Generation
 
@@ -68,11 +69,11 @@ AI as a programming partner.
 
 | Tool | Description |
 |---|---|
-| GitHub Copilot | Inline code completion and generation |
-| Cursor | AI-native code editor |
-| Aider | Terminal-based AI pair programming |
-| Code LLMs (DeepSeek Coder, Qwen Coder, StarCoder 2) | Open-source code models |
-| Benchmarks (HumanEval, SWE-bench, Terminal-Bench) | Evaluating code generation quality |
+| **GitHub Copilot** | Inline code completion and generation |
+| **Cursor** | AI-native code editor |
+| **Aider** | Terminal-based AI pair programming and multi-file editing |
+| **Code LLMs (Qwen2.5-Coder, DeepSeek-Coder-V2)** | State-of-the-art open-source code models |
+| **Benchmarks (HumanEval, SWE-bench)** | Standardized datasets for evaluating code generation and autonomous software engineering |
 
 ---
 

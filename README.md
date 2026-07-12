@@ -62,7 +62,7 @@ Each track contains a detailed guide with concepts to learn, curated resources, 
 
 ### [Foundations](tracks/01-foundations/README.md)
 
-> Mathematics, Python, data literacy, and the building blocks for everything that follows.
+> Mathematics, Python, data literacy, software engineering, and the building blocks for everything that follows.
 
 | Topic | What You'll Learn |
 |---|---|
@@ -70,9 +70,10 @@ Each track contains a detailed guide with concepts to learn, curated resources, 
 | Calculus & Optimization | Gradients, chain rule, gradient descent |
 | Probability & Statistics | Distributions, Bayes' theorem, hypothesis testing |
 | Python for Data Science | NumPy, Pandas, Matplotlib, Jupyter |
-| Data Wrangling | Cleaning, feature engineering, EDA |
+| Software Engineering | Git, clean code/OOP, testing (`pytest`), virtual envs (`uv`) |
+| Data Wrangling & EDA | Cleaning, feature engineering, exploratory analysis |
 
-**Project Ideas:** Exploratory data analysis portfolio, statistical hypothesis testing suite, data pipeline builder
+**Project Ideas:** Exploratory data analysis portfolio, statistical hypothesis testing suite, tested data pipeline package
 
 ---
 
@@ -150,7 +151,7 @@ Each track contains a detailed guide with concepts to learn, curated resources, 
 | Image Generation | GANs, VAEs, diffusion models, Stable Diffusion, Flux |
 | Text Generation | Autoregressive models, sampling strategies, beam search |
 | Audio & Music | Text-to-speech, voice cloning, music generation |
-| Video Generation | Sora 2, Veo 3, Kling 3, temporal consistency |
+| Video Generation | Sora, Veo, Kling, Runway, temporal consistency |
 | Code Generation | Copilot-style tools, code LLMs, benchmark evaluation |
 | Multimodal Generation | Text-to-image, image-to-text, any-to-any models |
 

@@ -56,6 +56,18 @@ The primary language of ML — and its essential ecosystem.
 | **Jupyter Notebooks** | Interactive development and experimentation |
 | **Scikit-learn** | Classical ML algorithms and utilities |
 
+### Software Engineering Foundations
+
+Writing clean, maintainable, and reproducible code is just as important as the math. To build real-world AI, you need software engineering best practices.
+
+| Skill / Tool | Why It Matters |
+|---|---|
+| **Git & Version Control** | Tracking model/code changes, collaboration, open-source contribution |
+| **Virtual Environments (`uv`)** | Dependency management and reproducible environments (extremely fast) |
+| **Clean Code & OOP** | Structuring modular pipelines, writing reusable datasets/models, SOLID principles |
+| **Testing (`pytest`)** | Writing unit tests for data transforms, model outputs, and training steps |
+| **APIs (`FastAPI`)** | Wrapping models into microservices, handling JSON inputs/outputs |
+
 ### Data Wrangling & EDA
 
 Real-world data is messy. Cleaning and understanding your data is where every project starts.
@@ -78,17 +90,20 @@ Real-world data is messy. Cleaning and understanding your data is where every pr
 - [fast.ai — Practical Deep Learning](https://course.fast.ai/) (free) — starts from foundations
 - [Stanford CS229 — Machine Learning](https://cs229.stanford.edu/) (free)
 - [Python for Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) (free)
+- [MIT CS — The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) (free) — essential shell, git, and tooling guides
 
 ### Books
 - *An Introduction to Statistical Learning (ISLR)* — James, Witten, Hastie, Tibshirani
 - *Mathematics for Machine Learning* — Deisenroth, Faisal, Ong ([free PDF](https://mml-book.github.io/))
-- *Python Data Science Handbook* — Jake VanderPlas
+- *Clean Code in Python* — Mariano Anaya
 - *Think Stats* — Allen Downey ([free](https://greenteapress.com/thinkstats2/))
 
 ### Tools to Install
-- [Python 3.10+](https://www.python.org/)
+- [Python 3.11+](https://www.python.org/)
+- [Git](https://git-scm.com/) for version control
+- [uv](https://github.com/astral-sh/uv) — the lightning-fast Python package and environment manager
+- [Ruff](https://github.com/astral-sh/ruff) — extremely fast Python linter and formatter
 - [Jupyter Lab](https://jupyter.org/)
-- [Anaconda](https://www.anaconda.com/) or [uv](https://github.com/astral-sh/uv) for environment management
 
 ---
 
@@ -98,7 +113,8 @@ Real-world data is messy. Cleaning and understanding your data is where every pr
 |---|---|---|
 | **Exploratory Data Analysis Portfolio** | Beginner | Analyze 3-5 public datasets (Kaggle, UCI) and create a visual storytelling portfolio |
 | **Statistical Hypothesis Testing Suite** | Beginner | Implement common statistical tests from scratch and compare with SciPy |
-| **Data Pipeline Builder** | Intermediate | Build a reusable data cleaning and feature engineering pipeline with Pandas |
+| **Tested Data Pipeline Package** | Intermediate | Build a reusable data cleaning and feature engineering pipeline as a fully tested Python package using `pytest` and `uv` |
+| **Model API Service** | Intermediate | Build a microservice with FastAPI that takes JSON input, runs simple validation, processes it, and returns predictions |
 | **Interactive Dashboard** | Intermediate | Create a Streamlit or Plotly Dash app for exploring a dataset interactively |
 
 ---

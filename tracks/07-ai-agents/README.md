@@ -30,20 +30,20 @@ graph LR
     Observe --> Response["Final Response"]
 ```
 
-### Agent Frameworks
+### Agent Frameworks & Orchestrators
 
 The rapidly growing ecosystem for building agents.
 
-| Framework | Description | Best For |
+| Framework / Tool | Description | Best For |
 |---|---|---|
-| **LangChain / LangGraph** | Popular framework with graph-based orchestration | Complex multi-step workflows |
-| **CrewAI** | Role-based multi-agent framework | Team-based agent collaboration |
-| **AutoGen (Microsoft)** | Multi-agent conversation framework | Research, complex reasoning |
-| **Smolagents (Hugging Face)** | Lightweight, code-first agents | Simple tool-use agents |
-| **OpenAI Agents SDK** | OpenAI's native agent framework | OpenAI model users |
-| **Pydantic AI** | Type-safe agent framework | Production-grade agents |
-| **Mastra** | TypeScript agent framework | JS/TS developers |
-| **Kitaru** | Durable execution for agents (crash recovery, approvals) | Reliable production agents |
+| **LangChain / LangGraph** | Popular framework with graph-based orchestration | Complex multi-step workflows and state machines |
+| **Pydantic AI** | Type-safe agent framework by Pydantic | Production-grade, structured, and validated agents |
+| **LlamaIndex Workflows** | Event-driven agent orchestration framework | Complex asynchronous, data-heavy agent flows |
+| **CrewAI** | Role-based multi-agent framework | Team-based agent collaboration and task delegation |
+| **Smolagents (Hugging Face)** | Lightweight, code-first Python agents | Simple, fast tool-use agents |
+| **Temporal / Kitaru** | Durable execution runtimes providing crash recovery and human-in-the-loop approvals | Highly reliable, long-running production agents |
+| **AutoGen (Microsoft)** | Multi-agent conversation framework | Research, conversational, and complex reasoning agents |
+| **Mastra / OpenAI SDK** | TypeScript and platform-native agent development frameworks | JS/TS developers and OpenAI ecosystem users |
 
 ### Agentic RAG
 
@@ -114,9 +114,11 @@ How to measure if your agent actually works.
 - [The AI Agents Stack](https://www.anthropic.com/research/building-effective-agents) — Anthropic's guide
 
 ### Key Tools
-- [LangChain](https://www.langchain.com/) / [LangGraph](https://langchain-ai.github.io/langgraph/)
-- [CrewAI](https://www.crewai.com/)
-- [Smolagents](https://huggingface.co/docs/smolagents)
+- [LangGraph](https://langchain-ai.github.io/langgraph/) — graph-based orchestration
+- [Pydantic AI](https://pydantic-ai.github.io/pydantic-ai/) — type-safe agent framework
+- [LlamaIndex Workflows](https://docs.llamaindex.ai/en/stable/module_guides/workflow/) — event-driven agent orchestration
+- [CrewAI](https://www.crewai.com/) / [Smolagents](https://huggingface.co/docs/smolagents)
+- [Temporal](https://temporal.io/) / [Kitaru](https://github.com/zenml-io/kitaru) — durable agent execution
 - [Browser Use](https://github.com/browser-use/browser-use) — web browser automation for agents
 - [MCP](https://modelcontextprotocol.io/) — Model Context Protocol specification
 
